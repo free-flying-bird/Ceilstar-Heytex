@@ -1,0 +1,18 @@
+.bg-color {
+    margin-left: 0;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bg-color_blue {
+    background-color: rgb(0,57,117);
+}
+
+.bg-color_green {
+    background-color: rgb(0,134,132);
+}
+
+.bg-color_orange {
+    background-color: rgb(245,130,32);
+}

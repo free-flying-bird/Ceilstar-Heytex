@@ -1,0 +1,6 @@
+.form__cacl-input {
+    border-radius: 10px;
+    border: 2px solid rgb(0,134,132);
+    margin-bottom: 20px;
+    min-height: 40px;
+}

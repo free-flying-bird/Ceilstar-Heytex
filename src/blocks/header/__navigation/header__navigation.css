@@ -1,0 +1,21 @@
+@import url('./_type_open/header__navigation_type_open.css');
+
+.header__navigation {
+  z-index: 3;
+}
+@media screen and (max-width: 720px) {
+  .header__navigation {
+    display: grid;
+    grid-template-rows: 56px 56px;
+    justify-content: left;
+    padding-left: 20px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__navigation {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

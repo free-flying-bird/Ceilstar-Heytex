@@ -1,0 +1,26 @@
+.form__container {
+    grid-area: form;
+    margin-top: 50px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 400px;
+    border: solid rgb(0, 134, 132);
+    border-radius: 10px;
+    z-index: 3;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 134, 132, .3);
+    justify-self: flex-end;
+    margin-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 720px) {
+    .form__container {
+        margin-right: 0;
+    }
+  }

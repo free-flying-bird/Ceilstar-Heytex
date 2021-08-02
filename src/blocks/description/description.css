@@ -1,0 +1,9 @@
+@import url(./__text/description__text.css);
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,17 @@
+@import url(./_place/header__logo_place_footer.css);
+
+.header__logo {
+    width: 100px;
+  }
+
+  @media screen and (max-width: 720px) {
+    .header__logo {
+      width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .header__logo {
+      width: 80px;
+    }
+  }

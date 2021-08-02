@@ -1,0 +1,10 @@
+.header__button  {
+    margin-top: 10px;
+    width: max-content;
+    background-color: rgb(245,130,32);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}

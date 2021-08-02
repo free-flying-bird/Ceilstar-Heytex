@@ -1,0 +1,16 @@
+@import url(./__container/form__container.css);
+@import url(./__cacl-input/form__cacl-input.css);
+@import url(./__result/form__result.css);
+@import url(./__button/form__button.css);
+@import url(./__title/form__title.css);
+@import url(./__subtitle/form__subtitle.css);
+@import url(./__button/form__button.css);
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    z-index: 5;
+    text-align: left;
+}

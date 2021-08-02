@@ -1,0 +1,13 @@
+.header__contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: max-content;
+}
+
+@media screen and (max-width: 720px) {
+    .header__contacts {
+      margin: 0;
+    }
+  }

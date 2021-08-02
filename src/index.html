@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ceilstar Russia</title>
+  <link rel="icon" href="<%=require('./images/favicon_heytex.ico')%>" type="image/x-icon">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body class='body'>
+  <div class="root">
+    <header class="header root__section">
+      <div class="logo-container">
+        <img src="<%=require('./images/icon_heytex-removebg.png')%>" class="header__logo">
+        <h1 class="header__title">Ceilstar<br>Rus</h1>
+      </div>
+      <div class="header__container header__navigation">
+        <p class="header__subtitle">Пишите, мы сейчас онлайн</p>
+      <div class="header__contacts">
+        <a href="https://viber.click/79914175258" title="Написать нам в Viber" target="_blank" class="header__social-icon header__social-icon_type_viber"></a>
+        <a href="https://wa.me/+79914175258" title="Написать нам в WhatApp" target="_blank" class="header__social-icon header__social-icon_type_whatsapp"></a>
+        <a href="mailto:ceilstar-rus@mail.ru" target="_blank" title="Написать нам email" class="header__subtitle">ceilstar-rus@mail.ru</a>
+        <!-- need to change href for telegram -->
+        
+      </div>
+      </div>
+        <div class="header__container">
+          <!-- <p href="" class="header__subtitle">г.Москва ул.Сормовская 16с2</p> -->
+          <a href="tel:+79914175258" class="header__subtitle">+7(991)417-52-58</a>
+          <a href="#contact" class="header__subtitle"><button class="header__button">Перезвоните мне</button></a>
+        </div>
+        <div class="header__menu-wrap link header__menu-wrap_type_open"></div>
+
+    </header>
+    <section class="main">
+      <div class="main__container">
+        <h2 class="main__title"><font color="#f58220">Профессиональный монтаж тканевых натяжных потолков</font><br>без предоплаты</h2>
+        <div class="advantages__container">
+          <div class="advantage">
+            <img src="<%=require('./images/money-removebg.png')%>" alt="Качество" class="advantage__image">
+            <p class="advantage__subtitle place-card__name">Доступная цена</p>
+          </div>
+          <div class="advantage">
+            <img src="<%=require('./images/assort-removebg.png')%>" alt="Качество" class="advantage__image">
+            <p class="advantage__subtitle place-card__name">Широкий ассортимент материалов</p>
+          </div>
+
+          <div class="advantage">
+            <img src="<%=require('./images/check-removebg.png')%>" alt="Качество" class="advantage__image">
+            <p class="advantage__subtitle place-card__name">Честный расчет. Цена в процессе не изменится</p>
+          </div>
+          <div class="advantage">
+            <img src="<%=require('./images/time-removebg.png')%>" alt="Качество" class="advantage__image">
+            <p class="advantage__subtitle place-card__name">Монтаж за один день</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="form__container">
+        <h2 class="main__title form__title"><font color="#f58220">Расчет стоимости</font></h2>
+        <form id="calc-form" class="form">
+          <p class="advantage__subtitle place-card__name form__subtitle">Общая площадь</p>
+          <input type="number" step="any" name="square" placeholder="Квадратных метров" class="form__cacl-input input__square">
+          <p class="advantage__subtitle place-card__name form__subtitle">Количество светильников</p>
+          <input type="number" step="any" name="lights" placeholder="Люстры, точечные" class="form__cacl-input input__lights">
+          <p class="form__result advantage__subtitle place-card__name">...</p>
+          <a href="#contact" class="header__subtitle form__subtitle"><button class="header__button form__button">Заказать замер</button></a>
+        </form>
+      </div>
+        <div class="main__black-bg"></div>
+    </section>
+
+    <section class="description">
+      <p class="advantage__subtitle place-card__name description__text"><b><font color="#f58220">Ceilstar</font>&#169; от <font color="#f58220">HEYtex</font>&#169; - тканевый натяжной потолок от крупнейшего немецкого производителя с более чем 100-летним опытом производства технических тканей.</b></p>
+      <p class="advantage__subtitle place-card__name description__text">Продукция <font color="#f58220">Ceilstar</font>&#169; полностью экологичен и соответствует всем европейским стандартам (DIN 4102 B1, ISO 2076).</p>
+      <p class="advantage__subtitle place-card__name description__text"><b><font color="#f58220">Ceilstar</font>&#169; - для идеального воплощения потолка!</b></p>
+    </section>
+    <!-- <section class="advantages">
+      <h2 class="advantages__title">Наши преимущества</h2>
+
+    </section> -->
+    <p class="advantage__subtitle place-card__name bg-color bg-color_orange"><b>Любые формы и освещение</b></p>
+    <div class="slogan slogan_type_hall"></div>
+    <p class="advantage__subtitle place-card__name bg-color bg-color_green"><b>Монтаж без газовых баллонов</b></p>
+    <div class="slogan slogan_type_second"></div>
+    <p class="advantage__subtitle place-card__name bg-color bg-color_orange"><b>Потолок класса премиум</b></p>
+    <div class="slogan slogan_type_third"></div>
+    <p class="advantage__subtitle place-card__name bg-color bg-color_green"><b>Закажи свой идеальный потолок прямо сейчас!</b></p>
+      <!-- <p class="advantage__subtitle place-card__name description__text"><b>Сертификат КМ-1 позволяет использовать материал в: образовательных учреждениях, торговых и бизнес-центрах, а так же в объектах здравоохранения.</b></p>
+      <div class="place-card__image_kind_certificate"></div>
+    <section class="photos">
+      <div class="place-card place-card__image_kind_catalog1"></div>
+      <div class="place-card place-card__image_kind_catalog2"></div>
+    </section> -->
+    <section id="contact" class="contact">
+      <iframe src="https://www.powr.io/contact-form/u/a9dc7a47_1624884857#platform=iframe" style="width:100%;" height="813px" frameborder="0"></iframe>
+    </section>
+
+    <footer class="footer">
+      <img src="" class="header__logo header__logo_place_footer">
+      <div class="footer__social-icons">
+        <!-- <a href="https://github.com/sokolik90" target="_blank" title="github/Sviatoslav Sokolov" class="footer__social-icon footer__social-icon_type_github link"></a> -->
+        <!-- <a href="https://www.facebook.com/profile.php?id=100001914551795" title="facebook/Sviatoslav Sokolov" target="_blank" class="footer__social-icon footer__social-icon_type_facebook link"></a> -->
+      </div>
+      <div class="header__container">
+        <div class="header__contacts">
+          <a href="https://viber.click/79914175258" title="Написать нам в Viber" target="_blank" class="header__social-icon header__social-icon_type_viber"></a>
+          <a href="https://wa.me/+79914175258" title="Написать нам в WhatApp" target="_blank" class="header__social-icon header__social-icon_type_whatsapp"></a>
+          <!-- need to change href for telegram -->
+          <a href="tel:+79914175258" class="header__subtitle">+7(991)417-52-58</a>
+        </div>
+        <!-- <p href="" class="header__subtitle">г.Москва ул.Сормовская 16с2</p> -->
+        <a href="mailto:ceilstar-rus@mail.ru" target="_blank" title="Написать нам email" class="header__subtitle">ceilstar-rus@mail.ru</a>
+      </div>
+    </footer>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.header.header_position_fixed {
+    height: 200px;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 134, 132);
+    z-index: 5;
+}

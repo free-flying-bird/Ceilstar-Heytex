@@ -1,0 +1,45 @@
+@import url(./__title/main__title.css);
+@import url(./__title/main__black-bg.css);
+
+.main {
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'title form'
+    'advice form';
+    padding-top: 250px;
+    padding-right: 5px;
+    padding-left: 20px;
+    background-image: url(../../images/livingroom-gorisont.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    margin-top: -215px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 1050px) {
+  .main {
+    grid-template-areas: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .main {
+      padding-top: 250px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .main {
+      padding-left: 5px;
+    }
+  }
